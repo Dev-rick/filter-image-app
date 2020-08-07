@@ -1,5 +1,5 @@
 {
-  "name": "udacity-c2-image-filter",
+  "name": "filter-image-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,10 @@
     "clean": "rm -rf www/ || true",
     "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-rick/image-filter-app-eb.git"
   },
   "author": "",
   "license": "ISC",
