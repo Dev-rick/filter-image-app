@@ -27,7 +27,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
         .send(`image_url is required`)
     } 
     
-    const image = await filterImageFromURL(image_url)
+    const image:string = await filterImageFromURL(image_url)
     
 
     if(!image) {

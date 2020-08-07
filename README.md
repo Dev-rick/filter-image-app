@@ -50,3 +50,6 @@ Add your own domain name and have it point to the running services (try adding a
 
 # Result:
 
+EB Endpoint: http://image-filter-app-dev.eu-west-3.elasticbeanstalk.com/
+
+see [Deployment Picture](https://github.com/Dev-rick/filter-image-app/blob/master/deployment_screenshots/deployment_screenshot.PNG)
